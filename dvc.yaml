@@ -1,0 +1,29 @@
+# DVC Pipeline Definition
+stages:
+  extract:
+    cmd: python -m 01_data_engineering.src.etl_pipeline extract
+    deps:
+      - data/raw
+    outs:
+      - data/processed
+      
+  transform:
+    cmd: python -m 01_data_engineering.src.etl_pipeline transform
+    deps:
+      - data/processed
+    outs:
+      - data/features
+      
+  train:
+    cmd: python -m 03_ml_engineering.ml_pipeline.training
+    deps:
+      - data/features
+      - 03_ml_engineering/ml_pipeline/training.py
+    params:
+      - train.epochs
+      - train.learning_rate
+    outs:
+      - models/
+    metrics:
+      - metrics.json:
+          cache: false

@@ -1,0 +1,11 @@
+# Data Drift Detection Configuration
+drift_detection:
+  reference_window_days: 30
+  comparison_window_days: 7
+  threshold_psi: 0.2
+  threshold_ks: 0.05
+  
+features_to_monitor:
+  - frequency_mean
+  - amplitude_max
+  - signal_duration

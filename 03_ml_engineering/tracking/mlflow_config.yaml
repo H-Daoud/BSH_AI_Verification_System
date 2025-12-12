@@ -1,0 +1,12 @@
+# MLflow Configuration
+tracking:
+  experiment_name: "bsh-acoustic-anomaly-detection"
+  tracking_uri: "http://localhost:5000"
+  artifact_location: "./mlruns"
+
+model_registry:
+  model_name: "acoustic-anomaly-detector"
+  stages:
+    - Staging
+    - Production
+    - Archived

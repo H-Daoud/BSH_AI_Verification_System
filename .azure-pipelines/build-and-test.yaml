@@ -1,0 +1,42 @@
+trigger:
+  - main
+  - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  pythonVersion: '3.11'
+  testDir: 'tests'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(pythonVersion)'
+    addToPath: true
+  displayName: 'Use Python $(pythonVersion)'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    pip install pytest pytest-cov ruff black
+  displayName: 'Install dependencies'
+
+- script: |
+    ruff check .
+  displayName: 'Run Linting (Ruff)'
+
+- script: |
+    pytest $(testDir) --doctest-modules --junitxml=junit/test-results.xml --cov=. --cov-report=xml
+  displayName: 'Run Tests'
+
+- task: PublishTestResults@2
+  condition: succeededOrFailed()
+  inputs:
+    testResultsFiles: '**/test-results.xml'
+    testRunTitle: 'Publish test results for $(pythonVersion)'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: Cobertura
+    summaryFileLocation: '$(System.DefaultWorkingDirectory)/**/coverage.xml'

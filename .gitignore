@@ -1,0 +1,317 @@
+# =============================================================================
+# BSH_AI_Verification_System - Git Ignore Configuration
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# -----------------------------------------------------------------------------
+# Jupyter Notebooks
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# -----------------------------------------------------------------------------
+# DVC (Data Version Control)
+# -----------------------------------------------------------------------------
+/data/raw/*
+/data/processed/*
+/data/features/*
+!data/**/.gitkeep
+*.dvc.lock
+.dvc/tmp
+.dvc/cache
+
+# -----------------------------------------------------------------------------
+# MLflow
+# -----------------------------------------------------------------------------
+mlruns/
+mlartifacts/
+*.mlflow
+
+# -----------------------------------------------------------------------------
+# Flutter / Dart
+# -----------------------------------------------------------------------------
+# Dart related
+*.dart_tool/
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+pubspec.lock
+
+# Flutter related
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/GeneratedPluginRegistrant.kt
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio
+**/android/**/gradle-wrapper.jar
+.gradle/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# -----------------------------------------------------------------------------
+# IDE / Editor
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------------------------------------------
+# OS Generated
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.bak
+*.tmp
+*.temp
+
+# -----------------------------------------------------------------------------
+# Docker
+# -----------------------------------------------------------------------------
+*.log
+docker-compose.override.yml
+
+# -----------------------------------------------------------------------------
+# Security / Secrets
+# -----------------------------------------------------------------------------
+*.pem
+*.key
+*.crt
+.env.*
+secrets/
+credentials/
+
+# -----------------------------------------------------------------------------
+# Models and Large Files
+# -----------------------------------------------------------------------------
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+models/
+!models/.gitkeep
+
+# -----------------------------------------------------------------------------
+# Misc
+# -----------------------------------------------------------------------------
+*.bak
+*.swp
+*.orig
+.cache/
+.tmp/
+tmp/
+temp/
+logs/
+*.log
+
+
+# Terraform Artifacts
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup
+# ----------------------------------------------------------------------
+# 1. Operating System and Editor Files
+# ----------------------------------------------------------------------
+.DS_Store
+.vscode/  # VS Code settings (optional, but good practice)
+*~
+# Thumbs.db (Windows)
+# .idea/ (PyCharm/IntelliJ files)
+
+# ----------------------------------------------------------------------
+# 2. Python-Specific Files
+# ----------------------------------------------------------------------
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Distribution / Packaging
+.Python
+env/
+*.env
+venv/
+pip-log.txt
+pip-delete-this-file.txt
+htmlcov/
+.tox/
+.coverage
+
+# Installer logs
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# ----------------------------------------------------------------------
+# 3. Machine Learning / Data Science
+# ----------------------------------------------------------------------
+# Large data files (Use Git LFS for controlled tracking, otherwise ignore)
+*.tsv
+*.data
+*.bin
+*.pkl
+*.parquet
+*.h5 # Keras model files
+
+# Model artifacts (already seen a large model file issue!)
+*.onnx # We saw huk_distilbert.onnx.cpgz - ignore all model files
+*.pt
+*.pth
+*.joblib
+
+# Logs and Checkpoints
+/logs/
+/checkpoints/
+
+# ----------------------------------------------------------------------
+# 4. AWS / Deployment Artifacts
+# ----------------------------------------------------------------------
+# Terraform state files (if you are using Terraform)
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+# Local credentials (CRITICAL: NEVER COMMIT SECRETS)
+credentials
+config
+.aws/credentials
+
+# Compiled code/builds
+/dist/
+/build/
+
+# ----------------------------------------------------------------------
+# 5. Backup and Temporary Files
+# ----------------------------------------------------------------------
+*bak
+*temp

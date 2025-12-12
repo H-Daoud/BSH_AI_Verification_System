@@ -1,0 +1,29 @@
+trigger:
+  - main
+
+schedules:
+- cron: "0 0 * * *"
+  displayName: Daily Midnight Build
+  branches:
+    include:
+    - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    wget https://github.com/aquasecurity/trivy/releases/download/v0.48.0/trivy_0.48.0_Linux-64bit.deb
+    sudo dpkg -i trivy_0.48.0_Linux-64bit.deb
+  displayName: 'Install Trivy'
+
+- script: |
+    trivy fs --exit-code 0 --severity HIGH,CRITICAL --format template --template "@contrib/html.tpl" -o trivy-fs-report.html .
+    trivy fs --exit-code 1 --severity CRITICAL .
+  displayName: 'Run Trivy Filesystem Scan'
+
+- task: PublishBuildArtifacts@1
+  input:
+    PathtoPublish: 'trivy-fs-report.html'
+    ArtifactName: 'SecurityReport'
+    publishLocation: 'Container'

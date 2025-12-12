@@ -1,0 +1,16 @@
+# Trivy Security Scanner Configuration
+scan:
+  severity: CRITICAL,HIGH
+  exit_code: 1
+  ignore_unfixed: false
+  
+image_scan:
+  enabled: true
+  registries:
+    - bsh-container-registry.azurecr.io
+    
+filesystem_scan:
+  enabled: true
+  skip_dirs:
+    - node_modules
+    - .git

@@ -1,0 +1,205 @@
+{
+    "expectation_suite_name": "bsh_acoustic_data_quality_suite",
+    "ge_cloud_id": null,
+    "meta": {
+        "great_expectations_version": "0.18.0",
+        "created_by": "BSH MLOps Team",
+        "created_at": "2024-01-15T10:00:00Z",
+        "description": "Data quality expectations for acoustic sensor data from dishwasher production lines",
+        "domain": "data_engineering",
+        "compliance": {
+            "eu_ai_act": true,
+            "data_governance": "BSH-DG-2024-001"
+        }
+    },
+    "expectations": [
+        {
+            "expectation_type": "expect_column_to_exist",
+            "kwargs": {
+                "column": "device_id"
+            },
+            "meta": {
+                "purpose": "Ensure device identifier is present for traceability"
+            }
+        },
+        {
+            "expectation_type": "expect_column_to_exist",
+            "kwargs": {
+                "column": "timestamp"
+            },
+            "meta": {
+                "purpose": "Ensure timestamp is present for audit trail"
+            }
+        },
+        {
+            "expectation_type": "expect_column_to_exist",
+            "kwargs": {
+                "column": "vibration_level"
+            },
+            "meta": {
+                "purpose": "Primary feature for anomaly detection"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_between",
+            "kwargs": {
+                "column": "vibration_level",
+                "min_value": 0.0,
+                "max_value": 100.0,
+                "strict_min": false,
+                "strict_max": false
+            },
+            "meta": {
+                "purpose": "Vibration level must be within sensor calibration range",
+                "business_rule": "BR-ACOUSTIC-001",
+                "alert_on_failure": true,
+                "failure_action": "quarantine"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_not_be_null",
+            "kwargs": {
+                "column": "device_id"
+            },
+            "meta": {
+                "purpose": "Device ID is mandatory for production traceability"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_not_be_null",
+            "kwargs": {
+                "column": "vibration_level"
+            },
+            "meta": {
+                "purpose": "Vibration level is critical for model inference"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_unique",
+            "kwargs": {
+                "column": "device_id"
+            },
+            "meta": {
+                "purpose": "Each batch should contain unique device readings",
+                "scope": "per_batch"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_match_regex",
+            "kwargs": {
+                "column": "device_id",
+                "regex": "^DW-[0-9]{4}-[0-9]{3,6}$"
+            },
+            "meta": {
+                "purpose": "Validate BSH dishwasher device ID format",
+                "format_example": "DW-2024-001234"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_of_type",
+            "kwargs": {
+                "column": "vibration_level",
+                "type_": "float64"
+            },
+            "meta": {
+                "purpose": "Ensure numeric type for ML processing"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_between",
+            "kwargs": {
+                "column": "temperature",
+                "min_value": -10.0,
+                "max_value": 80.0
+            },
+            "meta": {
+                "purpose": "Temperature within operational range",
+                "optional": true
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_between",
+            "kwargs": {
+                "column": "frequency_mean",
+                "min_value": 20.0,
+                "max_value": 20000.0
+            },
+            "meta": {
+                "purpose": "Frequency within audible range (Hz)",
+                "applies_to": "post_fft_features"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_between",
+            "kwargs": {
+                "column": "dominant_frequency",
+                "min_value": 0.0,
+                "max_value": 22050.0
+            },
+            "meta": {
+                "purpose": "Dominant frequency below Nyquist limit",
+                "applies_to": "post_fft_features"
+            }
+        },
+        {
+            "expectation_type": "expect_table_row_count_to_be_between",
+            "kwargs": {
+                "min_value": 1,
+                "max_value": 1000000
+            },
+            "meta": {
+                "purpose": "Sanity check for batch size"
+            }
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_in_set",
+            "kwargs": {
+                "column": "production_line",
+                "value_set": [
+                    "LINE_A",
+                    "LINE_B",
+                    "LINE_C",
+                    "LINE_D",
+                    "TEST"
+                ]
+            },
+            "meta": {
+                "purpose": "Validate production line identifier",
+                "optional": true
+            }
+        },
+        {
+            "expectation_type": "expect_column_pair_values_a_to_be_greater_than_b",
+            "kwargs": {
+                "column_A": "spectral_centroid",
+                "column_B": "spectral_bandwidth",
+                "or_equal": true
+            },
+            "meta": {
+                "purpose": "Physical constraint: centroid >= bandwidth",
+                "applies_to": "post_fft_features",
+                "optional": true
+            }
+        }
+    ],
+    "data_asset_type": null,
+    "notes": {
+        "monitoring": {
+            "frequency": "per_batch",
+            "alerting": "Azure Monitor",
+            "dashboard": "Power BI - Data Quality"
+        },
+        "thresholds": {
+            "critical_failure_rate": 0.05,
+            "warning_failure_rate": 0.02
+        },
+        "drift_detection": {
+            "enabled": true,
+            "reference_dataset": "data/reference/baseline_2024Q1.parquet",
+            "metrics": [
+                "psi",
+                "ks_statistic"
+            ]
+        }
+    }
+}

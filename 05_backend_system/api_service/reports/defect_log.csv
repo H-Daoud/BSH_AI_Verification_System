@@ -1,0 +1,163 @@
+timestamp,device_id,confidence,reason,user_action
+2025-12-11 07:37:17.735000,DW-2024-10119,0.9500,"Complex non-linear pattern detected",manual_qa_flag
+2025-12-11 07:37:21.043000,DW-2024-10119,0.9500,"Complex non-linear pattern detected",manual_qa_flag
+2025-12-11 07:37:22.222000,DW-2024-10119,0.9500,"Complex non-linear pattern detected",manual_qa_flag
+2025-12-11 07:37:40.888000,DW-2024-10128,0.9500,"Complex non-linear pattern detected",manual_qa_flag
+2025-12-11 07:41:49.408000,DW-2024-10256,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:42:13.408000,DW-2024-10268,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:43:31.405000,DW-2024-10307,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:43:41.406000,DW-2024-10312,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:43:43.405000,DW-2024-10313,0.9500,"Vibration (95.6) exceeds normal range",auto_detection
+2025-12-11 07:43:47.411000,DW-2024-10315,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:44:21.405000,DW-2024-10332,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:44:25.405000,DW-2024-10334,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:45:09.404000,DW-2024-10356,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:45:29.403000,DW-2024-10366,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:48:05.399000,DW-2024-10444,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:48:35.397000,DW-2024-10459,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:49:01.396000,DW-2024-10472,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:49:17.396000,DW-2024-10480,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:50:05.396000,DW-2024-10504,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:50:09.395000,DW-2024-10506,0.9500,"Vibration (100.9) exceeds normal range",auto_detection
+2025-12-11 07:50:15.396000,DW-2024-10509,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:50:19.396000,DW-2024-10511,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:50:53.395000,DW-2024-10528,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:51:23.395000,DW-2024-10543,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:51:27.395000,DW-2024-10545,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:51:33.395000,DW-2024-10548,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:52:11.394000,DW-2024-10567,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:52:45.394000,DW-2024-10584,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:54:03.393000,DW-2024-10623,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:55:09.392000,DW-2024-10656,0.9500,"Vibration (99.6) exceeds normal range",auto_detection
+2025-12-11 07:55:47.392000,DW-2024-10675,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:57:19.391000,DW-2024-10721,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:57:27.391000,DW-2024-10725,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:57:33.391000,DW-2024-10728,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:57:37.392000,DW-2024-10730,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:59:03.389000,DW-2024-10773,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:59:19.389000,DW-2024-10781,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:59:23.389000,DW-2024-10783,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 07:59:41.390000,DW-2024-10792,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:00:33.389000,DW-2024-10818,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:01:45.387000,DW-2024-10854,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:02:41.388000,DW-2024-10882,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:03:03.388000,DW-2024-10893,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:03:29.387000,DW-2024-10906,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:04:57.386000,DW-2024-10950,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:05:45.549000,DW-2024-10974,0.9500,"Vibration (99.7) exceeds normal range",auto_detection
+2025-12-11 08:06:15.550000,DW-2024-10989,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:06:47.551000,DW-2024-11005,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:08:01.554000,DW-2024-11042,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:08:29.553000,DW-2024-11056,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:08:43.555000,DW-2024-11063,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:08:47.555000,DW-2024-11065,0.9500,"Vibration (95.3) exceeds normal range",auto_detection
+2025-12-11 08:10:05.557000,DW-2024-11104,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:10:15.557000,DW-2024-11109,0.9500,"Vibration (100.3) exceeds normal range",auto_detection
+2025-12-11 08:10:17.557000,DW-2024-11110,0.9500,"Vibration (97.7) exceeds normal range",auto_detection
+2025-12-11 08:10:25.558000,DW-2024-11114,0.9500,"Vibration (100.4) exceeds normal range",auto_detection
+2025-12-11 08:10:41.558000,DW-2024-11122,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:11:09.560000,DW-2024-11136,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:12:07.561000,DW-2024-11165,0.9500,"Vibration (99.8) exceeds normal range",auto_detection
+2025-12-11 08:12:13.561000,DW-2024-11168,0.9500,"Vibration (97.8) exceeds normal range",auto_detection
+2025-12-11 08:12:23.561000,DW-2024-11173,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:12:59.562000,DW-2024-11191,0.9500,"Vibration (102.0) exceeds normal range",auto_detection
+2025-12-11 08:13:21.563000,DW-2024-11202,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:13:25.566000,DW-2024-11204,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:13:45.564000,DW-2024-11214,0.9500,"Complex non-linear pattern detected",auto_detection
+2025-12-11 08:15:25.567000,DW-2024-11264,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:15:35.567000,DW-2024-11269,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:15:59.568000,DW-2024-11281,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:16:21.569000,DW-2024-11292,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:17:45.571000,DW-2024-11334,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:17:57.571000,DW-2024-11340,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:18:27.572000,DW-2024-11355,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:18:53.573000,DW-2024-11368,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:20:25.575000,DW-2024-11414,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:20:35.577000,DW-2024-11419,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:20:37.577000,DW-2024-11420,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:21:07.576000,DW-2024-11435,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:22:53.612000,DW-2024-11488,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:23:15.613000,DW-2024-11499,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:23:31.612000,DW-2024-11507,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:23:35.612000,DW-2024-11509,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-11 08:24:45.615000,DW-2024-11544,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:25:03.616000,DW-2024-11553,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:25:13.616000,DW-2024-11558,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:25:35.616000,DW-2024-11569,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:26:09.618000,DW-2024-11586,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-11 08:26:47.619000,DW-2024-11605,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:42:05.351000,DW-2024-10014,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:42:25.352000,DW-2024-10024,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:42:43.353000,DW-2024-10033,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:44:41.289000,DW-2024-10092,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:45:05.289000,DW-2024-10104,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:47:45.043000,DW-2024-10005,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:48:31.043000,DW-2024-10028,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:48:53.044000,DW-2024-10039,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:51:37.045000,DW-2024-10121,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:51:41.046000,DW-2024-10123,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:52:35.046000,DW-2024-10150,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:53:15.046000,DW-2024-10170,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:53:19.047000,DW-2024-10172,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 07:54:09.046000,DW-2024-10197,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:55:31.049000,DW-2024-10238,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:55:47.049000,DW-2024-10246,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:57:11.050000,DW-2024-10288,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:57:47.051000,DW-2024-10306,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 07:59:43.052000,DW-2024-10364,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:00:03.052000,DW-2024-10374,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:01:25.053000,DW-2024-10415,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:01:29.052000,DW-2024-10417,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:01:53.053000,DW-2024-10429,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:02:41.053000,DW-2024-10453,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:03:43.054000,DW-2024-10484,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:04:15.055000,DW-2024-10500,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:04:31.056000,DW-2024-10508,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:04:43.056000,DW-2024-10514,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:04:47.055000,DW-2024-10516,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:04:57.056000,DW-2024-10521,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:06:15.056000,DW-2024-10560,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:06:39.056000,DW-2024-10572,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:07:05.056000,DW-2024-10585,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:09:43.058000,DW-2024-10664,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:10:29.059000,DW-2024-10687,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:11:19.060000,DW-2024-10712,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:13:47.063000,DW-2024-10786,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:14:19.063000,DW-2024-10802,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:15:07.063000,DW-2024-10826,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:15:31.063000,DW-2024-10838,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:16:39.064000,DW-2024-10872,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:18:15.065000,DW-2024-10918,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 08:20:27.066000,DW-2024-10984,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:20:51.066000,DW-2024-10996,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 08:20:53.067000,DW-2024-10997,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:21:43.067000,DW-2024-11022,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:22:39.068000,DW-2024-11050,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:23:37.069000,DW-2024-11079,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:23:55.069000,DW-2024-11088,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:24:31.070000,DW-2024-11106,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:24:39.069000,DW-2024-11110,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:24:59.070000,DW-2024-11120,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:26:07.071000,DW-2024-11154,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:27:05.071000,DW-2024-11183,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:28:07.072000,DW-2024-11214,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:28:51.073000,DW-2024-11236,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 08:29:07.072000,DW-2024-11244,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 08:29:15.073000,DW-2024-11248,0.9500,"High Frequency Whine (Check Pump Cavitation)",auto_detection
+2025-12-12 08:29:53.073000,DW-2024-11267,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:30:25.073000,DW-2024-11283,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:30:59.074000,DW-2024-11300,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:31:05.074000,DW-2024-11303,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:31:39.075000,DW-2024-11320,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:31:43.074000,DW-2024-11322,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:31:59.119000,DW-2024-11330,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:32:11.075000,DW-2024-11336,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:32:21.075000,DW-2024-11341,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:32:57.075000,DW-2024-11359,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:33:43.076000,DW-2024-11382,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:34:15.076000,DW-2024-11398,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:35:21.076000,DW-2024-11431,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:35:35.077000,DW-2024-11438,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:36:21.077000,DW-2024-11461,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:37:29.078000,DW-2024-11495,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection
+2025-12-12 08:37:45.078000,DW-2024-11503,0.9500,"Acoustic Anomaly (Unidentified Source)",auto_detection

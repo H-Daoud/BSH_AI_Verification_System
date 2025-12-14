@@ -19,7 +19,7 @@
 ## 🎯 Project Overview
 An end-to-end enterprise ML system for detecting acoustic anomalies in dishwasher production lines at BSH Hausgeräte Group.
 <p align="center">
-  <img src="https://github.com/H-Daoud/BSH_AI_Verification_System/blob/main/aws_terraform_infrastructure/AWS_Al%20Verification%20System_Project_Architecture.png" width="400">
+  <img src="https://github.com/H-Daoud/BSH_AI_Verification_System/blob/main/aws_terraform_infrastructure/AWS_Al%20Verification%20System_Project_Architecture.png" width="600">
 </p>
 ## 📁 Repository Structure
 

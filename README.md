@@ -1,5 +1,5 @@
 🏭 **BSH_AI_Verification_System (Prototyp)**
-⚡ **Enterprise AI Test_Verification_System for Dishwasher Production_Implemented_with_Hybrid_MachineLearnignModel+ Dockerized_in(Azure)**
+⚡ **Enterprise AI Test_Verification_System for Dishwasher Production_Implemented_with_Hybrid_MachineLearnignModel+ Dockerized_in(AWS)**
 **Pipeline:** `data_engineering` ➔ `data_science_research` ➔ `ml_engineering`➔ `AI_Test_Verification_System`
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
 ![Azure](https://img.shields.io/badge/Cloud-Azure-0078D4?logo=microsoftazure)

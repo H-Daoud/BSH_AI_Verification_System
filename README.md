@@ -10,7 +10,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-green.svg)](https://fastapi.tiangolo.com)
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)](https://flutter.dev)
 [![MLflow](https://img.shields.io/badge/MLflow-2.10+-orange.svg)](https://mlflow.org)
-
 <p align="center">
   <img src=" " width="800">
 </p>
@@ -19,7 +18,7 @@
 ## 🎯 Project Overview
 An end-to-end enterprise ML system for detecting acoustic anomalies in dishwasher production lines at BSH Hausgeräte Group.
 <p align="center">
-  <img src="https://github.com/H-Daoud/BSH_AI_Verification_System/blob/main/aws_terraform_infrastructure/AWS_Al%20Verification%20System_Project_Architecture.png" width="600">
+  <img src="https://github.com/H-Daoud/BSH_AI_Verification_System/blob/main/aws_terraform_infrastructure/AWS_Al%20Verification%20System_Project_Architecture.png" width="800">
 </p>
 ## 📁 Repository Structure
 
